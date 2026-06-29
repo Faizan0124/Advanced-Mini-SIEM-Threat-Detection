@@ -1,0 +1,70 @@
+[00:01] SYSTEM_STARTUP status=success
+[00:05] NETWORK_CONNECT ip=192.168.1.50
+[00:12] LOGIN_SUCCESS user=backup_service
+[00:15] FILE_READ backup_config.cfg
+[00:22] NETWORK_CONNECT ip=10.0.0.12
+[00:25] LOGIN_SUCCESS user=jsmith
+[00:30] FILE_WRITE weekly_report.pdf
+[00:45] SYSTEM_UPDATE status=checking
+[01:00] NETWORK_DISCONNECT ip=10.0.0.12
+[01:10] PORT_SCAN ip=192.168.1.1
+[01:11] PORT_SCAN ip=192.168.1.2
+[01:12] PORT_SCAN ip=192.168.1.3
+[01:13] PORT_SCAN ip=192.168.1.4
+[01:14] PORT_SCAN ip=192.168.1.5
+[01:15] PORT_SCAN ip=192.168.1.6
+[01:16] PORT_SCAN ip=192.168.1.7
+[01:17] PORT_SCAN ip=192.168.1.8
+[01:20] LOGIN_SUCCESS user=mfaizan
+[01:25] FILE_READ project_proposal.docx
+[01:30] NETWORK_CONNECT ip=172.16.0.5
+[01:35] LOGIN_SUCCESS user=tazeen
+[01:40] FILE_READ system_architecture.vsdx
+[01:55] NETWORK_DISCONNECT ip=172.16.0.5
+[02:00] LOGIN_FAIL user=admin ip=203.0.113.45
+[02:00] LOGIN_FAIL user=admin ip=203.0.113.45
+[02:01] LOGIN_FAIL user=admin ip=203.0.113.45
+[02:01] LOGIN_FAIL user=admin ip=203.0.113.45
+[02:02] LOGIN_FAIL user=admin ip=203.0.113.45
+[02:02] LOGIN_FAIL user=admin ip=203.0.113.45
+[02:03] LOGIN_FAIL user=root ip=203.0.113.45
+[02:03] LOGIN_FAIL user=root ip=203.0.113.45
+[02:04] LOGIN_FAIL user=root ip=203.0.113.45
+[02:04] LOGIN_FAIL user=root ip=203.0.113.45
+[02:05] LOGIN_FAIL user=administrator ip=203.0.113.45
+[02:05] LOGIN_FAIL user=administrator ip=203.0.113.45
+[02:06] LOGIN_FAIL user=administrator ip=203.0.113.45
+[02:06] LOGIN_FAIL user=administrator ip=203.0.113.45
+[02:07] LOGIN_FAIL user=sysadmin ip=203.0.113.45
+[02:07] LOGIN_FAIL user=sysadmin ip=203.0.113.45
+[02:08] LOGIN_FAIL user=sysadmin ip=203.0.113.45
+[02:08] LOGIN_FAIL user=sysadmin ip=203.0.113.45
+[02:09] LOGIN_FAIL user=db_admin ip=203.0.113.45
+[02:09] LOGIN_FAIL user=db_admin ip=203.0.113.45
+[02:10] LOGIN_FAIL user=db_admin ip=203.0.113.45
+[02:10] LOGIN_FAIL user=db_admin ip=203.0.113.45
+[02:15] LOGIN_SUCCESS user=mahsan
+[02:18] NETWORK_CONNECT ip=192.168.1.100
+[02:22] FILE_WRITE test_script.py
+[02:30] LOGIN_SUCCESS user=guest ip=203.0.113.45
+[02:32] PRIV_ESC user=guest target=root
+[02:33] NETWORK_CONNECT ip=203.0.113.45
+[02:35] FILE_READ /etc/shadow
+[02:36] FILE_READ /etc/passwd
+[02:40] FILE_DELETE /var/log/auth.log
+[02:41] FILE_DELETE /var/log/syslog
+[02:42] FILE_DELETE .bash_history
+[02:43] FILE_DELETE config.sys
+[02:44] FILE_DELETE system32.dll
+[02:50] NETWORK_DISCONNECT ip=203.0.113.45
+[03:00] SYSTEM_UPDATE status=downloading
+[03:10] LOGIN_SUCCESS user=backup_service
+[03:15] FILE_WRITE backup_20260529.zip
+[03:30] PORT_SCAN ip=10.0.0.1
+[03:31] PORT_SCAN ip=10.0.0.2
+[03:32] PORT_SCAN ip=10.0.0.3
+[03:45] LOGIN_FAIL user=test ip=198.51.100.22
+[03:46] LOGIN_FAIL user=test ip=198.51.100.22
+[03:47] LOGIN_FAIL user=test ip=198.51.100.22
+[03:55] LOGIN_SUCCESS user=jsmith
+[04:00] SYSTEM_HEALTH_CHECK status=ok
