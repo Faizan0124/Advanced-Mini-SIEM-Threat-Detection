@@ -24,11 +24,11 @@ pip install streamlit google-genai
    
    **For Windows PowerShell:**
    ```powershell
-   $env:GEMINI_API_KEY="AQAb8RN6JbSPb8A4u4kWiY0OUwslZdMa1-7f3w2bfU4W1NW15JVQ"
+   $env:GEMINI_API_KEY="Your API Key"
    ```
    **For Windows Command Prompt (cmd):**
    ```cmd
-   set GEMINI_API_KEY="AQAb8RN6JbSPb8A4u4kWiY0OUwslZdMa1-7f3w2bfU4W1NW15JVQ"
+   set GEMINI_API_KEY="Your API Key"
    ```
 
 2. **Launch the Dashboard:**
